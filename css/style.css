@@ -1,0 +1,233 @@
+html {
+	scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background: linear-gradient(124.13deg, #F4CB38 10.97%, #F4A938 77.98%);
+}
+:root{
+	--darken-color: #8F8A9A;
+	--dark-color: #1F1534;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-wrap{
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+}
+.navbar-brand{
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: var(--dark-color);
+    color: #fff;
+    border-radius: 5px;
+}
+.navbar-brand__desc{
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: 500px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.menu-link {
+    font-size: 20px;
+    font-weight: 400;
+	color: var(--dark-color);
+    transition: 200ms;
+}
+.menu-link:hover {
+    font-weight: 600;
+    text-shadow: 0 0 1px var(--dark-color);
+	color: var(--dark-color);
+}
+.menu-icon{
+    width: 15px;
+    height: 15px;
+}
+.header-content{
+    display: flex;
+    margin-top: 200px;
+}
+.header-content__info{
+    width: 40%;
+    gap: 40px;
+}
+.header-content__img{
+    width: 60%;
+}
+.header-content__title{
+    font-size: 60px;
+    font-size: 900;
+}
+.header-content__desc{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 35px;
+    margin: 30px 0 50px 0;
+}
+.header-content__btn{
+    padding: 20px 40px;
+    background-color: #ED1C4E;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 7px 35px rgba(243, 24, 24, 0.42);
+    transition: 500ms;
+}
+.header-content__btn:hover{
+    background-color: #e93861;
+}
+.header-content_image{
+    margin-left: 100px;
+    width: 900px;
+    height: 500px;
+}
+.services {
+	padding: 60px 0;
+}
+.section-header {
+	text-align: center;
+}
+.section-header__title{
+    font-size: 60px;
+    color:var(--dark-color);
+}
+.section-header__desc{
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.services-content{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 34px;
+	grid-row-gap: 34px;
+	margin-bottom: 72px;
+}
+.services-content__card{
+    padding: 40px 55px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	transition: 200ms ease-in-out;
+    position: relative;
+	z-index: 0;
+    background-color: #fff;
+    gap: 20px;
+}
+.services-content__card:hover{
+    transform: scale(1.1);
+	box-shadow: 10px 40px 40px rgba(169, 173, 184, 0.2);
+	z-index: 111;
+}
+.services-card__title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.services-card__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 103px;
+    height: 140px;
+}
+.hedgehog{
+    width: 103px;
+    height: 130px;
+}
+.dog{
+    color: rgb(8, 207, 8);
+}
+.cat{
+    color: red;
+}
+.parrot{
+    color: blue;
+}
+.rabbit{
+    color: orangered;
+}
+.hamster{
+    color: rgb(178, 0, 248);
+}
+.apps-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 130px;
+	margin-top: 100px;
+}
+
+.apps-group__img {
+	width: 60%;
+}
+
+.apps-group__info {
+	width: 40%;
+}
+.apps-group__title{
+    font-size: 60px;
+}
+.apps-group__desc{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: var(--dark-color);
+    color: #fff;
+    border-radius:  15px;
+    transition: 500ms;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #fff;
+    color: var(--dark-color);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.footer-container{
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin-top: 200px; 
+    margin-bottom: 50px;
+}
+.footer-menu__link{
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-img{
+    width: 25px;
+    height: 25px;
+}
+.footer-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
